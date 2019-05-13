@@ -28,6 +28,7 @@ def won?(board)
   end
   
   false
+<<<<<<< HEAD
 end
 
 def full?(board)
@@ -58,4 +59,6 @@ def winner(board)
     return "X" if board[won?(board)[0]] == "X"
     "O"
   end
+=======
+>>>>>>> 9b51187e36b3a573ad8a63b1788d7466eff467b6
 end
